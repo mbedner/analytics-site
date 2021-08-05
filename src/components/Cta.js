@@ -4,7 +4,7 @@ import MainBtn from './Buttons/MainBtn'
 function Cta() {
     return (
         <section className="container m-auto my-14 relative">
-            <div className="bg-gradient-to-br from-blue-dark to-blue-medium xl:py-28 2xl:py-60 relative">
+            <div className="bg-gradient-to-br from-blue-dark to-blue-medium xl:py-28 xl:py-32 2xl:py-32 relative">
                 <div className="max-w-4xl m-auto text-center">
                     <h2 className="font-heading text-white my-8 text-4xl">Lorem Ipsum Dolor Set Amet</h2>
                     <p className="font-body text-white opacity-80 px-36 my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores non ut tempore fugiat alias magni? At, quam voluptatem officia temporibus odit nesciunt reiciendis quas corporis. Deleniti hic voluptates velit quidem.</p>
