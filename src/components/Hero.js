@@ -1,13 +1,17 @@
 import React from 'react'
+import MainBtn from './Buttons/MainBtn'
+import {
+    Link
+  } from "react-router-dom";
 
 function Hero(props) {
     return (
-        <section className="bg-gradient-to-br from-blue-dark to-blue-medium py-60 relative">
+        <section className="bg-gradient-to-br from-blue-dark to-blue-medium xl:py-28 2xl:py-60 relative">
             <div className="container flex items-center m-auto">
                 <div className="w-2/5">
-                    <h1 className="text-6xl text-white font-serif my-6">Lorem ipsum dolor amet consectetur</h1>
-                    <p className="text-white opacity-80 my-2 w-3/4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus possimus deleniti ullam enim explicabo aut vero quia, perferendis minus adipisci facilis unde tenetur eius soluta mollitia, molestiae temporibus nostrum alias.</p>
-                    <button className="px-8 py-3 uppercase rounded-lg bg-gradient-to-b from-yellow-medium to-yellow-dark text-blue-dark my-8 shadow shadow-inner tracking-widest font-bold text-sm">Button</button>
+                    <h1 className="capitalize xl:text-5xl 2xl:text-6xl text-white font-heading my-8">Lorem ipsum dolor amet consectetur</h1>
+                    <p className="text-white opacity-80 my-4 w-3/4 font-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus possimus ullam enim explicabo aut vero quia, perferendis minus adipisci facilis unde.</p>
+                    <Link to="mailto:bednermb3420@gmail.com"><MainBtn>Contact Us</MainBtn></Link>
                 </div>
                 <div className="w-3/5"></div>
             </div>
