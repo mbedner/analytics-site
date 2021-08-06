@@ -18,7 +18,7 @@ function Hero(props) {
                     </span>This is a headline</span>
                     <h1 className="capitalize xl:text-5xl 2xl:text-6xl text-white font-heading my-8 ">Lorem ipsum dolor amet consectetur</h1>
                     <p className="text-white opacity-80 my-10 mb-14 w-3/4 font-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus possimus ullam enim explicabo aut vero quia, perferendis minus adipisci facilis unde.</p>
-                    <Link to="mailto:bednermb3420@gmail.com"><MainBtn>Contact Us</MainBtn></Link>
+                    <Link to="/about"><MainBtn>About Us</MainBtn></Link>
                 </div>
                 <div className="w-3/5"></div>
             </div>
