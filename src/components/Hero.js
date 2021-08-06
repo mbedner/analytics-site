@@ -13,7 +13,7 @@ function Hero(props) {
              <img src={bgShapes} className="object-cover absolute h-full w-full top-0 left-0 opacity-30 mix-blend-screen z-0" />
              <div className="container flex items-center m-auto z-10 relative">
                 <div className="w-2/5">
-                    <span class="bg-gradient-to-r from-white to-gray-200 py-1 pl-1 pr-4 gap-2 shadow shadow-inner rounded-full text-xs uppercase tracking-widest font-heading my-6 inline-flex items-center"><span class="bg-gradient-to-r from-yellow-dark to-yellow-medium w-6 h-6 rounded-full shadow shadow-inner inline-block flex items-center justify-center">
+                    <span className="bg-gradient-to-r from-white to-gray-200 py-1 pl-1 pr-4 gap-2 shadow shadow-inner rounded-full text-xs uppercase tracking-widest font-heading my-6 inline-flex items-center"><span className="bg-gradient-to-r from-yellow-dark to-yellow-medium w-6 h-6 rounded-full shadow shadow-inner inline-block flex items-center justify-center">
                     <BsFillBarChartFill />    
                     </span>This is a headline</span>
                     <h1 className="capitalize xl:text-5xl 2xl:text-6xl text-white font-heading my-8 ">Lorem ipsum dolor amet consectetur</h1>
