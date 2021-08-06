@@ -24,7 +24,7 @@ export default function Navbar({ fixed }) {
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Link to="/">
                 <div
-                className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
+                className="font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
                 >
                 Analytics Site
                 </div>
@@ -46,17 +46,17 @@ export default function Navbar({ fixed }) {
           >
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
                 <Link to="/">
-                    <li className="nav-item px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75 rounded hover:bg-blue-dark">
+                    <li className="nav-item px-3 py-2 tracking-widest flex items-center text-sm uppercase leading-snug text-white hover:opacity-75 rounded hover:bg-blue-dark">
                         <span>Home</span>
                     </li>
                 </Link>
                 <Link to="/about">
-                    <li className="nav-item px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75 rounded hover:bg-blue-dark">
+                    <li className="nav-item px-3 py-2 tracking-widest flex items-center text-sm uppercase leading-snug text-white hover:opacity-75 rounded hover:bg-blue-dark">
                         <span>About</span>
                     </li>
                 </Link>
                 <a href="mailto:bednermb3420@gmail.com">
-                    <li className="nav-item px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75 rounded hover:bg-blue-dark">
+                    <li className="nav-item px-3 py-2 tracking-widest flex items-center text-sm uppercase leading-snug text-white hover:opacity-75 rounded hover:bg-blue-dark">
                         <span>Contact</span>
                     </li>
                 </a>

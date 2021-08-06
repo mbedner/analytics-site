@@ -1,12 +1,16 @@
 import React from 'react'
-import Hero from '../components/Hero'
-import Features from '../components/Features'
+import HeroAbout from '../components/HeroAbout'
+import Cta from '../components/Cta'
+import GoToTop from '../GotToTop'
+import Mission from '../components/Mission'
 
 function About() {
     return (
         <>
-            <Hero />
-            <Features />
+            <HeroAbout />
+            <Mission />
+            <Cta />
+            <GoToTop />
         </>
     )
 }
