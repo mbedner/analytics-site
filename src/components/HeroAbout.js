@@ -1,7 +1,7 @@
 import React from 'react'
 import MainBtn from './Buttons/MainBtn'
 import bgShapes from '../assets/bg-shapes2.svg'
-import cubes from '../assets/cubes2.svg'
+// import cubes from '../assets/cubes2.svg'
 import { BsFillBarChartFill } from "react-icons/bs";
 import {
     Link
@@ -9,21 +9,18 @@ import {
 
 function Hero(props) {
     return (
-        <section className="bg-gradient-to-br from-blue-dark to-blue-medium xl:py-28 2xl:py-44 relative overflow-hidden">
+        <section className="bg-gradient-to-br from-blue-dark to-blue-medium xl:py-24 relative overflow-hidden">
              <img src={bgShapes} alt="" className="object-cover absolute h-full w-full top-0 left-0 opacity-30 mix-blend-screen z-0" />
-             <div className="container flex items-center m-auto z-10 relative">
-                <div className="w-2/5">
+             <div className="container flex flex-col items-center m-auto z-10 relative">
+                <div className="w-2/5 text-center inline-flex flex-col items-center">
                     <span className="bg-gradient-to-r from-white to-gray-200 py-1 pl-1 pr-4 gap-2 shadow shadow-inner rounded-full text-xs uppercase tracking-widest font-heading my-6 inline-flex items-center"><span className="bg-gradient-to-r from-yellow-dark to-yellow-medium w-6 h-6 rounded-full shadow shadow-inner inline-block flex items-center justify-center">
                     <BsFillBarChartFill />    
                     </span>This is a SubHeading</span>
-                    <h1 className="capitalize xl:text-5xl 2xl:text-6xl text-white font-heading my-8">Lorem ipsum dolor amet consectetur</h1>
-                    <p className="text-white opacity-80 my-8 w-3/4 font-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus possimus ullam enim explicabo aut vero quia, perferendis minus adipisci facilis unde.</p>
+                    <h1 className="capitalize xl:text-5xl 2xl:text-6xl text-white font-heading my-4">About Us</h1>
+                    <p className="text-white opacity-80 m-6 w-3/4 font-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus possimus ullam enim explicabo aut vero quia, perferendis minus adipisci facilis unde.</p>
                     <div className="flex gap-6 items-center">
-                        <Link to="/about"><MainBtn>About Us</MainBtn></Link> <a href="#" className="text-white uppercase tracking-widest text-sm hover:underline hover:opacity-80">Contact Us</a>
+                        <Link to="/"><MainBtn>Contact Us</MainBtn></Link>
                     </div>
-                </div>
-                <div className="w-3/5">
-                    <img src={cubes} alt="" className="absolute w-4/6 -top-24" />
                 </div>
             </div>
            

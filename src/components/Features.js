@@ -1,5 +1,6 @@
 import React from 'react'
 import MainBtn from './Buttons/MainBtn'
+import icon from '../assets/icon-graph.svg'
 
 function Features() {
     return (
@@ -12,34 +13,40 @@ function Features() {
                 </div>
                 <div className="w-2/3">
                     <div className="grid grid-cols-3 gap-8 mb-8">
-                        <div className="bg-white rounded-md p-8 shadow-long border-b-4 border-blue-medium">
+                        <div className="bg-white rounded-md p-8 shadow-long border-b-4 border-blue-medium transform transition hover:-translate-y-2">
+                            <img src={icon} alt="" className="w-16"/>
                             <h3 className="leading-tight font-heading text-blue-extradark my-4 text-2xl">Lorem Ipsum Dolor</h3>
                             <div className="w-12 h-1 bg-gradient-to-r from-yellow-dark to-yellow-medium my-2"></div>
                             <p className="opacity-80 my-4 text-sm font-body text-blue-extradark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus possimus deleniti ullam.</p>
                         </div>
-                        <div className="bg-white rounded-md p-8 shadow-long border-b-4 border-blue-medium">
+                        <div className="bg-white rounded-md p-8 shadow-long border-b-4 border-blue-medium transform transition hover:-translate-y-2">
+                            <img src={icon} alt="" className="w-16"/>
                             <h3 className="leading-tight font-heading text-blue-extradark my-4 text-2xl">Lorem Ipsum Dolor</h3>
                             <div className="w-12 h-1 bg-gradient-to-r from-yellow-dark to-yellow-medium my-2"></div>
                             <p className="opacity-80 my-4 text-sm font-body text-blue-extradark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus possimus deleniti ullam.</p>
                         </div>
-                        <div className="bg-white rounded-md p-8 shadow-long border-b-4 border-blue-medium">
+                        <div className="bg-white rounded-md p-8 shadow-long border-b-4 border-blue-medium transform transition hover:-translate-y-2">
+                            <img src={icon} alt="" className="w-16"/>
                             <h3 className="leading-tight font-heading text-blue-extradark my-4 text-2xl">Lorem Ipsum Dolor</h3>
                             <div className="w-12 h-1 bg-gradient-to-r from-yellow-dark to-yellow-medium my-2"></div>
                             <p className="opacity-80 my-4 text-sm font-body text-blue-extradark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus possimus deleniti ullam.</p>
                         </div>
                     </div>
                     <div className="grid grid-cols-3 gap-8">
-                        <div className="bg-white rounded-md p-8 shadow-long border-b-4 border-blue-medium">
+                        <div className="bg-white rounded-md p-8 shadow-long border-b-4 border-blue-medium transform transition hover:-translate-y-2">
+                            <img src={icon} alt="" className="w-16"/>
                             <h3 className="leading-tight font-heading text-blue-extradark my-4 text-2xl">Lorem Ipsum Dolor</h3>
                             <div className="w-12 h-1 bg-gradient-to-r from-yellow-dark to-yellow-medium my-2"></div>
                             <p className="opacity-80 my-4 text-sm font-body text-blue-extradark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus possimus deleniti ullam.</p>
                         </div>
-                        <div className="bg-white rounded-md p-8 shadow-long border-b-4 border-blue-medium">
+                        <div className="bg-white rounded-md p-8 shadow-long border-b-4 border-blue-medium transform transition hover:-translate-y-2">
+                            <img src={icon} alt="" className="w-16"/>
                             <h3 className="leading-tight font-heading text-blue-extradark my-4 text-2xl">Lorem Ipsum Dolor</h3>
                             <div className="w-12 h-1 bg-gradient-to-r from-yellow-dark to-yellow-medium my-2"></div>
                             <p className="opacity-80 my-4 text-sm font-body text-blue-extradark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus possimus deleniti ullam.</p>
                         </div>
-                        <div className="bg-white rounded-md p-8 shadow-long border-b-4 border-blue-medium">
+                        <div className="bg-white rounded-md p-8 shadow-long border-b-4 border-blue-medium transform transition hover:-translate-y-2">
+                            <img src={icon} alt="" className="w-16"/>
                             <h3 className="leading-tight font-heading text-blue-extradark my-4 text-2xl">Lorem Ipsum Dolor</h3>
                             <div className="w-12 h-1 bg-gradient-to-r from-yellow-dark to-yellow-medium my-2"></div>
                             <p className="opacity-80 my-4 text-sm font-body text-blue-extradark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus possimus deleniti ullam.</p>

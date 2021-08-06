@@ -1,6 +1,7 @@
 import React from 'react'
 import MainBtn from './Buttons/MainBtn'
 import bgShapes from '../assets/bg-shapes2.svg'
+import cubesCut from '../assets/cubes-cut.svg'
 import {
     Link
   } from "react-router-dom";
@@ -15,8 +16,9 @@ function AboutIntro() {
                     <Link to="/about"><MainBtn>Learn About Us</MainBtn></Link>
                 </div>
                 <div className="w-1/2 flex items-center justify-center p-14">
-                    <div className="bg-gradient-to-br from-blue-dark to-blue-medium rounded-lg w-full h-80 relatie">
-                        <img src={bgShapes} className="object-contain absolute left-0 opacity-60 mix-blend-screen z-0 transform" />
+                    <div className="bg-gradient-to-br from-blue-dark to-blue-medium rounded-lg w-full h-80 relative">
+                        <img src={cubesCut} className="absolute w-full -bottom-0 z-10 right-8" />
+                        <img src={bgShapes} className="object-cover absolute left-0 opacity-60 mix-blend-screen z-0 transform" />
                     </div>
                 </div>
             </div>
