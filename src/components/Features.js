@@ -1,6 +1,7 @@
 import React from 'react'
 import MainBtn from './Buttons/MainBtn'
 import icon from '../assets/icon-graph.svg'
+import { Link } from 'react-router-dom'
 
 function Features() {
     return (
@@ -9,7 +10,9 @@ function Features() {
                 <div className="w-1/3 pr-16">
                     <h2 className="text-4xl font-heading mb-8 text-blue-extradark capitalize leading-normal">Ipsum Dolor Sit Amet consectetur</h2>
                     <p className="opacity-80 my-4 font-body text-blue-extradark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus possimus deleniti ullam enim explicabo aut vero quia, perferendis minus adipisci facilis unde tenetur.</p>
-                    <MainBtn>Contact Us</MainBtn>
+                    <Link to="/contact-us">
+                        <MainBtn>Contact Us</MainBtn>
+                    </Link>
                 </div>
                 <div className="w-2/3">
                     <div className="grid grid-cols-3 gap-8 mb-8">

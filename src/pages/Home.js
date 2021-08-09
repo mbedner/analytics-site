@@ -4,6 +4,7 @@ import Cta from '../components/Cta'
 import Features from '../components/Features'
 import Hero from '../components/Hero'
 import GoToTop from '../GotToTop'
+import Footer from '../components/Footer'
 
 function Home() {
     return (
@@ -12,6 +13,7 @@ function Home() {
             <Features />
             <AboutIntro />
             <Cta />
+            <Footer />
             <GoToTop />
         </div>
     )

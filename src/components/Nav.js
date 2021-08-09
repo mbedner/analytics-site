@@ -19,7 +19,7 @@ export default function Navbar({ fixed }) {
 
   return (
     <>
-      <nav className={navbar ? "fixed m-auto w-full flex flex-wrap items-center justify-between py-3 z-50 top-auto font-heading  bg-gradient-to-r from-blue-dark to-blue-medium transition-all" : "fixed m-auto w-full flex flex-wrap items-center justify-between py-3 z-50 top-auto font-heading transition-all bg-transparent"} >
+      <nav className={navbar ? "fixed m-auto w-full flex flex-wrap items-center justify-between py-3 z-50 top-auto font-heading bg-gradient-to-r from-blue-dark to-blue-medium transition-all" : "fixed m-auto w-full flex flex-wrap items-center justify-between py-3 z-50 top-auto font-heading transition-all bg-transparent"} >
         <div className="container mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Link to="/">
@@ -46,20 +46,20 @@ export default function Navbar({ fixed }) {
           >
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
                 <Link to="/">
-                    <li className="nav-item px-3 py-2 tracking-widest flex items-center text-sm uppercase leading-snug text-white hover:opacity-75 rounded hover:bg-blue-dark">
+                    <li className="px-3 py-2 tracking-widest flex items-center text-sm uppercase leading-snug text-white hover:opacity-75 rounded hover:bg-blue-dark">
                         <span>Home</span>
                     </li>
                 </Link>
                 <Link to="/about">
-                    <li className="nav-item px-3 py-2 tracking-widest flex items-center text-sm uppercase leading-snug text-white hover:opacity-75 rounded hover:bg-blue-dark">
+                    <li className="px-3 py-2 tracking-widest flex items-center text-sm uppercase leading-snug text-white hover:opacity-75 rounded hover:bg-blue-dark">
                         <span>About</span>
                     </li>
                 </Link>
-                <a href="mailto:bednermb3420@gmail.com">
-                    <li className="nav-item px-3 py-2 tracking-widest flex items-center text-sm uppercase leading-snug text-white hover:opacity-75 rounded hover:bg-blue-dark">
+                <Link to="/contact-us">
+                    <li className="border border-white px-3 py-2 ml-2 tracking-widest flex items-center text-sm uppercase leading-snug text-white hover:text-blue-dark rounded hover:bg-white">
                         <span>Contact</span>
                     </li>
-                </a>
+                </Link>
             </ul>
           </div>
         </div>
