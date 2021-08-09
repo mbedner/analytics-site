@@ -11,7 +11,9 @@ function Footer() {
                 <Link to="/about">
                     <li className="p-4 uppercase font-heading text-sm tracking-widest">About</li>
                 </Link>
-                <li className="p-4 uppercase font-heading text-sm tracking-widest">Contact</li>
+                <Link to="/contact-us"> 
+                    <li className="p-4 uppercase font-heading text-sm tracking-widest">Contact</li>
+                </Link>
             </ul>
             <p className="text-center text-white font-body pt-4 border-t w-1/3 m-auto opacity-30 text-sm tracking-wide">Copyright Analytics Site 2021</p>
         </footer>
