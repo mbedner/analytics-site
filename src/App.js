@@ -3,6 +3,7 @@ import 'tailwindcss/tailwind.css'
 import Nav from './components/Nav'
 import Home from './pages/Home'
 import About from './pages/About'
+import Contact from './pages/Contact'
 import {
   BrowserRouter as Router,
   Switch,
@@ -23,6 +24,9 @@ function App() {
           </Route>
           <Route path="/about">
             <About />
+          </Route>
+          <Route path="/contact-us">
+            <Contact />
           </Route>
         </Switch>
       </Router>

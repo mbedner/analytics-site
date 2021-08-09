@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "firstName": "Janice",
+        "lastName": "McCoy",
+        "title" : "Co-Owner",
+        "img" : "https://images.unsplash.com/photo-1611432579699-484f7990b127?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2250&q=80"
+    },
+    {
+        "id": 2,
+        "firstName": "Jerry",
+        "lastName": "Smith",
+        "title" : "Co-Owner",
+        "img": "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80"
+    },
+    {
+        "id": 3,
+        "firstName": "John",
+        "lastName": "Anderson",
+        "title" : "Analytics Wizard",
+        "img" : "https://images.unsplash.com/photo-1520341280432-4749d4d7bcf9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGhlYWRzaG90fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+        "id": 4,
+        "firstName": "Jack",
+        "lastName": "Miller",
+        "title" : "Sales Manager",
+        "img" : "https://images.unsplash.com/photo-1576558656222-ba66febe3dec?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=4500&q=80"
+    },
+    {
+        "id": 5,
+        "firstName": "Jake",
+        "lastName": "Johnson",
+        "title" : "CTO",
+        "img" : "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fGhlYWRzaG90fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1600&q=60"
+    },
+    {
+        "id": 6,
+        "firstName": "Jackie",
+        "lastName": "Stills",
+        "title" : "Account Manager",
+        "img" : "https://images.unsplash.com/photo-1589525231707-f2de2428f59c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=4350&q=80"
+    }
+]
