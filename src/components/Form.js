@@ -15,13 +15,13 @@ export default function ContactUs() {
   }
 
   return (
-    <section className="container m-auto relative my-28">
-        <div className="flex justify-center gap-20">
-            <div className="w-1/2 relative z-10">
-                <h2 className="text-4xl font-heading mb-8 text-blue-extradark capitalize leading-normal">Lorem ipsum adipisicing explicabo consectetu</h2>
+    <section className="container m-auto relative my-12 lg:my-28">
+        <div className="flex flex-col lg:flex-row justify-center gap-8 lg:gap-20 p-4 lg:p-0">
+            <div className="w-full lg:w-1/2 relative z-10">
+                <h2 className="text-2xl lg:text-4xl font-heading mb-2 lg:mb-8 text-blue-extradark capitalize leading-normal">Lorem ipsum adipisicing explicabo consectetu</h2>
                 <p className="opacity-80 my-4 font-body text-blue-extradark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus possimus deleniti ullam enim explicabo aut vero quia, perferendis minus adipisci facilis unde tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus possimus deleniti ullam enim explicabo aut vero quia, perferendis minus adipisci facilis unde tenetur</p>
             </div>
-            <div className="w-1/2 flex items-center justify-center px-14">
+            <div className="w-full lg:w-1/2 flex items-center justify-center lg:px-14">
                 <form className="contact-form w-full" onSubmit={sendEmail}>
                     <input type="hidden" name="contact_number" />
                     <div className="mb-4 pt-0">
