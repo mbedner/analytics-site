@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import { HiOutlineMenuAlt3 } from "react-icons/hi";
+
 import {
     Link
   } from "react-router-dom";
@@ -19,7 +21,7 @@ export default function Navbar({ fixed }) {
 
   return (
     <>
-      <nav className={navbar ? "fixed m-auto w-full flex flex-wrap items-center justify-between py-3 z-50 top-auto font-heading bg-gradient-to-r from-blue-dark to-blue-medium transition-all" : "fixed m-auto w-full flex flex-wrap items-center justify-between py-3 z-50 top-auto font-heading transition-all bg-transparent"} >
+      <nav className={navbar ? "px-4 lg:px-0 fixed m-auto w-full flex flex-wrap items-center justify-between py-3 z-50 top-auto font-heading bg-gradient-to-r from-blue-dark to-blue-medium transition-all" : "px-4 lg:px-0 fixed m-auto w-full flex flex-wrap items-center justify-between py-3 z-50 top-auto font-heading transition-all bg-transparent"} >
         <div className="container mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Link to="/">
@@ -30,11 +32,11 @@ export default function Navbar({ fixed }) {
                 </div>
             </Link>
             <button
-              className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+              className="text-white w-30 h-auto cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
               type="button"
               onClick={() => setNavbarOpen(!navbarOpen)}
             >
-              <i className="fas fa-bars"></i>
+              < HiOutlineMenuAlt3 />
             </button>
           </div>
           <div
